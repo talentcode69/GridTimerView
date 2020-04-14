@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DCBFFA6A93C5C2D54AB3A14 /* Pods_GridTimerView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BCB2764B9A8B3CC7C24D286 /* Pods_GridTimerView_Example.framework */; };
+		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		E31BC00A2141FDF800E213BE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31BC0082141FDF800E213BE /* DetailViewController.swift */; };
+		E31BC00B2141FDF800E213BE /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E31BC0092141FDF800E213BE /* DetailViewController.xib */; };
+		E31BC00D2142015900E213BE /* DetailViewSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31BC00C2142015900E213BE /* DetailViewSource.swift */; };
+		E349098E215E506300354BDE /* ChannelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E349098D215E506300354BDE /* ChannelView.swift */; };
+		E3490990215E50C700354BDE /* UIView+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = E349098F215E50C700354BDE /* UIView+Tools.swift */; };
+		E3490992215E50D900354BDE /* ChannelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3490991215E50D900354BDE /* ChannelView.xib */; };
+		E37D661421412AFD00B184AA /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E37D660421412AFC00B184AA /* MainViewController.xib */; };
+		E37D661521412AFD00B184AA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37D660521412AFC00B184AA /* MainViewController.swift */; };
+		E37D661621412AFD00B184AA /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37D660821412AFC00B184AA /* Colors.swift */; };
+		E37D661721412AFD00B184AA /* UIColor+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37D660A21412AFC00B184AA /* UIColor+Tools.swift */; };
+		E37D661821412AFD00B184AA /* Array+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37D660B21412AFC00B184AA /* Array+Tools.swift */; };
+		E37D661C21412AFD00B184AA /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37D661121412AFD00B184AA /* Event.swift */; };
+		E37D661D21412AFD00B184AA /* ChannelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37D661221412AFD00B184AA /* ChannelFactory.swift */; };
+		E37D661E21412AFD00B184AA /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37D661321412AFD00B184AA /* Channel.swift */; };
+		E37D662021412B1500B184AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37D661F21412B1400B184AA /* AppDelegate.swift */; };
+		E37D662221412B3000B184AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E37D662121412B3000B184AA /* Images.xcassets */; };
+		E39D576A21428B8F007C35B2 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39D576921428B8F007C35B2 /* Globals.swift */; };
+		E39D576E21428E61007C35B2 /* MainViewController+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39D576D21428E61007C35B2 /* MainViewController+Tools.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B8F7BF22E15D75DD4C7449A /* Pods-GridTimerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridTimerView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GridTimerView_Example/Pods-GridTimerView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0BCB2764B9A8B3CC7C24D286 /* Pods_GridTimerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GridTimerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C8C3D3B723048DB6021E931 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5E2829925FBC9DC79A3DA977 /* Pods-GridTimerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridTimerView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GridTimerView_Tests/Pods-GridTimerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* GridTimerView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridTimerView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		637D1E4F46FC8A89B4E43627 /* GridTimerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GridTimerView.podspec; path = ../GridTimerView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		71FD57ED303E943402CE0713 /* Pods-GridTimerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridTimerView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GridTimerView_Tests/Pods-GridTimerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8648351EDF0A42C6BF1363DF /* Pods_GridTimerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GridTimerView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C379C2B4C50E0507EC73A29F /* Pods-GridTimerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridTimerView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GridTimerView_Example/Pods-GridTimerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DED5DF3A8BD497E7C3CD9033 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E31BC0082141FDF800E213BE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E31BC0092141FDF800E213BE /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		E31BC00C2142015900E213BE /* DetailViewSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewSource.swift; sourceTree = "<group>"; };
+		E349098D215E506300354BDE /* ChannelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelView.swift; sourceTree = "<group>"; };
+		E349098F215E50C700354BDE /* UIView+Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Tools.swift"; sourceTree = "<group>"; };
+		E3490991215E50D900354BDE /* ChannelView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChannelView.xib; sourceTree = "<group>"; };
+		E37D660421412AFC00B184AA /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		E37D660521412AFC00B184AA /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E37D660821412AFC00B184AA /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		E37D660A21412AFC00B184AA /* UIColor+Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Tools.swift"; sourceTree = "<group>"; };
+		E37D660B21412AFC00B184AA /* Array+Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Tools.swift"; sourceTree = "<group>"; };
+		E37D661121412AFD00B184AA /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		E37D661221412AFD00B184AA /* ChannelFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelFactory.swift; sourceTree = "<group>"; };
+		E37D661321412AFD00B184AA /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		E37D661F21412B1400B184AA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E37D662121412B3000B184AA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E39D576921428B8F007C35B2 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		E39D576D21428E61007C35B2 /* MainViewController+Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+Tools.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		607FACCD1AFB9204008FA782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DCBFFA6A93C5C2D54AB3A14 /* Pods_GridTimerView_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0053BB2C265215A8DDAB4ABF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BCB2764B9A8B3CC7C24D286 /* Pods_GridTimerView_Example.framework */,
+				8648351EDF0A42C6BF1363DF /* Pods_GridTimerView_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		607FACC71AFB9204008FA782 = {
+			isa = PBXGroup;
+			children = (
+				607FACF51AFB993E008FA782 /* Podspec Metadata */,
+				607FACD21AFB9204008FA782 /* Example for GridTimerView */,
+				607FACD11AFB9204008FA782 /* Products */,
+				B00118E4ED0F9ED0368DEE1E /* Pods */,
+				0053BB2C265215A8DDAB4ABF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		607FACD11AFB9204008FA782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD01AFB9204008FA782 /* GridTimerView_Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		607FACD21AFB9204008FA782 /* Example for GridTimerView */ = {
+			isa = PBXGroup;
+			children = (
+				E37811572143C6B5006B009D /* Resources */,
+				E37D661F21412B1400B184AA /* AppDelegate.swift */,
+				E37D660C21412AFD00B184AA /* Cells */,
+				E37D660321412AFC00B184AA /* Controllers */,
+				E37D661021412AFD00B184AA /* Models */,
+				E37D660621412AFC00B184AA /* Utils */,
+				607FACD31AFB9204008FA782 /* Supporting Files */,
+			);
+			name = "Example for GridTimerView";
+			path = GridTimerView;
+			sourceTree = "<group>";
+		};
+		607FACD31AFB9204008FA782 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD41AFB9204008FA782 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				637D1E4F46FC8A89B4E43627 /* GridTimerView.podspec */,
+				1C8C3D3B723048DB6021E931 /* README.md */,
+				DED5DF3A8BD497E7C3CD9033 /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		B00118E4ED0F9ED0368DEE1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C379C2B4C50E0507EC73A29F /* Pods-GridTimerView_Example.debug.xcconfig */,
+				0B8F7BF22E15D75DD4C7449A /* Pods-GridTimerView_Example.release.xcconfig */,
+				5E2829925FBC9DC79A3DA977 /* Pods-GridTimerView_Tests.debug.xcconfig */,
+				71FD57ED303E943402CE0713 /* Pods-GridTimerView_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E37811552143C68B006B009D /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E37D660521412AFC00B184AA /* MainViewController.swift */,
+				E39D576D21428E61007C35B2 /* MainViewController+Tools.swift */,
+				E37D660421412AFC00B184AA /* MainViewController.xib */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		E37811562143C69A006B009D /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E31BC0082141FDF800E213BE /* DetailViewController.swift */,
+				E31BC00C2142015900E213BE /* DetailViewSource.swift */,
+				E31BC0092141FDF800E213BE /* DetailViewController.xib */,
+			);
+			path = DetailViewController;
+			sourceTree = "<group>";
+		};
+		E37811572143C6B5006B009D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				E37D662121412B3000B184AA /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E37D660321412AFC00B184AA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E37811562143C69A006B009D /* DetailViewController */,
+				E37811552143C68B006B009D /* MainViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E37D660621412AFC00B184AA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E39D576821428B81007C35B2 /* Globals */,
+				E37D660721412AFC00B184AA /* Constants */,
+				E37D660921412AFC00B184AA /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E37D660721412AFC00B184AA /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E37D660821412AFC00B184AA /* Colors.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E37D660921412AFC00B184AA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E37D660A21412AFC00B184AA /* UIColor+Tools.swift */,
+				E37D660B21412AFC00B184AA /* Array+Tools.swift */,
+				E349098F215E50C700354BDE /* UIView+Tools.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E37D660C21412AFD00B184AA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E349098D215E506300354BDE /* ChannelView.swift */,
+				E3490991215E50D900354BDE /* ChannelView.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E37D661021412AFD00B184AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E37D661121412AFD00B184AA /* Event.swift */,
+				E37D661221412AFD00B184AA /* ChannelFactory.swift */,
+				E37D661321412AFD00B184AA /* Channel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E39D576821428B81007C35B2 /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				E39D576921428B8F007C35B2 /* Globals.swift */,
+			);
+			path = Globals;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		607FACCF1AFB9204008FA782 /* GridTimerView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "GridTimerView_Example" */;
+			buildPhases = (
+				AD5366989F502A9DBC8CE81E /* [CP] Check Pods Manifest.lock */,
+				607FACCC1AFB9204008FA782 /* Sources */,
+				607FACCD1AFB9204008FA782 /* Frameworks */,
+				607FACCE1AFB9204008FA782 /* Resources */,
+				0B34F86EF46811C0560A9742 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GridTimerView_Example;
+			productName = GridTimerView;
+			productReference = 607FACD01AFB9204008FA782 /* GridTimerView_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		607FACC81AFB9204008FA782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = CocoaPods;
+				TargetAttributes = {
+					607FACCF1AFB9204008FA782 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = BV4J4GZFL4;
+						LastSwiftMigration = 0900;
+					};
+				};
+			};
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "GridTimerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 607FACC71AFB9204008FA782;
+			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				607FACCF1AFB9204008FA782 /* GridTimerView_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		607FACCE1AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3490992215E50D900354BDE /* ChannelView.xib in Resources */,
+				E37D662221412B3000B184AA /* Images.xcassets in Resources */,
+				E31BC00B2141FDF800E213BE /* DetailViewController.xib in Resources */,
+				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				E37D661421412AFD00B184AA /* MainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B34F86EF46811C0560A9742 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GridTimerView_Example/Pods-GridTimerView_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GridTimerView/GridTimerView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GridTimerView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GridTimerView_Example/Pods-GridTimerView_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD5366989F502A9DBC8CE81E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GridTimerView_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		607FACCC1AFB9204008FA782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31BC00A2141FDF800E213BE /* DetailViewController.swift in Sources */,
+				E3490990215E50C700354BDE /* UIView+Tools.swift in Sources */,
+				E37D661C21412AFD00B184AA /* Event.swift in Sources */,
+				E349098E215E506300354BDE /* ChannelView.swift in Sources */,
+				E37D661521412AFD00B184AA /* MainViewController.swift in Sources */,
+				E31BC00D2142015900E213BE /* DetailViewSource.swift in Sources */,
+				E37D661721412AFD00B184AA /* UIColor+Tools.swift in Sources */,
+				E39D576A21428B8F007C35B2 /* Globals.swift in Sources */,
+				E37D661E21412AFD00B184AA /* Channel.swift in Sources */,
+				E37D661D21412AFD00B184AA /* ChannelFactory.swift in Sources */,
+				E39D576E21428E61007C35B2 /* MainViewController+Tools.swift in Sources */,
+				E37D661621412AFD00B184AA /* Colors.swift in Sources */,
+				E37D662021412B1500B184AA /* AppDelegate.swift in Sources */,
+				E37D661821412AFD00B184AA /* Array+Tools.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607FACDF1AFB9204008FA782 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		607FACED1AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		607FACEE1AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		607FACF01AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C379C2B4C50E0507EC73A29F /* Pods-GridTimerView_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BV4J4GZFL4;
+				INFOPLIST_FILE = GridTimerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		607FACF11AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B8F7BF22E15D75DD4C7449A /* Pods-GridTimerView_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BV4J4GZFL4;
+				INFOPLIST_FILE = GridTimerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "GridTimerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACED1AFB9204008FA782 /* Debug */,
+				607FACEE1AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "GridTimerView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACF01AFB9204008FA782 /* Debug */,
+				607FACF11AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
+}
